@@ -11,19 +11,16 @@ metadata:
     - docker
     - backend
     - experimental
-
-annotations:
-  github.com/project-slug: ShlomoChanoch/api-cep
-
-links:
-  - url: https://github.com/ShlomoChanoch/api-cep
-    title: Repositório (GitHub)
-  - url: http://localhost:8000/docs
-    title: Documentação da API (Swagger UI)
-  - url: http://localhost:8000/api-docs
-    title: API Docs (Backstage)
-
-specs:
+  annotations:
+    github.com/project-slug: ShlomoChanoch/api-cep
+  links:
+    - url: https://github.com/ShlomoChanoch/api-cep
+      title: Repositório (GitHub)
+    - url: http://localhost:8000/docs
+      title: Documentação da API (Swagger UI)
+    - url: http://localhost:8000/api-docs
+      title: API Docs (Backstage)
+spec: 
   type: service
   lifecycle: experimental
   owner: user:default/guest
