@@ -20,7 +20,7 @@ metadata:
       title: Documentação da API (Swagger UI)
     - url: http://localhost:8000/api-docs
       title: API Docs (Backstage)
-spec: 
+spec:
   type: service
   lifecycle: experimental
   owner: user:default/guest
