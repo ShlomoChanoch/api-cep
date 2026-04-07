@@ -11,8 +11,11 @@ metadata:
     - docker
     - backend
     - experimental
+    
   annotations:
     github.com/project-slug: ShlomoChanoch/api-cep
+    backstage.io/techdocs-ref: dir:.
+    
   links:
     - url: https://github.com/ShlomoChanoch/api-cep
       icon: docs
