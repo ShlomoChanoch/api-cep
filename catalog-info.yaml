@@ -15,11 +15,17 @@ metadata:
     github.com/project-slug: ShlomoChanoch/api-cep
   links:
     - url: https://github.com/ShlomoChanoch/api-cep
+      icon: docs
       title: Repositório (GitHub)
     - url: http://localhost:8000/docs
+      icon: docs
       title: Documentação da API (Swagger UI)
     - url: http://localhost:8000/api-docs
+      icon: docs
       title: API Docs (Backstage)
+    - url: https://viacep.com.br
+      icon: web
+      title: external-dependency
 spec:
   type: service
   lifecycle: experimental
