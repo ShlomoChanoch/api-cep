@@ -32,3 +32,25 @@ spec:
   owner: group:default/team-cep
   providesApis:
     - api-cep
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: viacep-api
+  description: API externa ViaCEP para consulta de CEPs brasileiros
+  tags:
+    - external
+    - api
+    - third-party
+  links:
+    - url: https://viacep.com.br
+      icon: web
+      title: ViaCEP Website
+    - url: https://viacep.com.br/ws/01310100/json/
+      title: Exemplo de Consulta
+      icon: docs
+spec:
+  type: external-api
+  owner: group:default/team-cep
+  dependencyOf:
+    - component:default/api-cep
